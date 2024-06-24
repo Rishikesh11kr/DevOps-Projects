@@ -1,0 +1,39 @@
+Explanation of the Project:
+
+
+This project involves migrating a stack of services, which currently run on virtual machines on our local computers, to the AWS cloud. The services include Nginx, Apache Tomcat, RabbitMQ, Memcached, and MySQL. Once the stack is on the AWS cloud, the architectural design will be as follows:
+
+User Access: Users will access our website using a URL. This URL will point to an endpoint mentioned in GoDaddy DNS.
+
+Connection to Load Balancer: Users, browsers, or apps will connect to the load balancer using HTTPS. The HTTPS certificate will be managed by the Amazon Certificate Manager (ACM). The load balancer endpoint will only allow HTTPS traffic and will be secured within a security group.
+
+Routing Requests: The application load balancer will route requests to Apache Tomcat instances. These Tomcat instances will run on a set of EC2 instances managed by an auto-scaling group. The instances will scale out or scale in based on the load.
+
+Security Groups:
+
+The EC2 instances running Tomcat will be in a separate security group, allowing traffic only on port 8080 from the load balancer.
+The backend services (MySQL, Memcached, RabbitMQ) will be in another security group. The Tomcat instances will communicate with these backend servers using private IP addresses specified in an Amazon Route 53 private DNS zone.
+Backend Servers:
+
+The Tomcat instances will access the backend servers (MySQL, Memcached, RabbitMQ) using names specified in the Route 53 private DNS. The private DNS will map these names to the private IP addresses of the backend servers.
+The backend EC2 instances will be in a separate security group to ensure proper security and traffic management.
+AWS Services Used:
+
+Amazon Certificate Manager (ACM):
+For managing HTTPS certificates.
+
+Application Load Balancer: For routing incoming traffic to the appropriate EC2 instances.
+
+EC2 Instances: For running Apache Tomcat, MySQL, Memcached, and RabbitMQ.
+
+Auto Scaling Group: For scaling the number of EC2 instances based on demand.
+
+Security Groups: For managing access and ensuring secure communication between services.
+
+Amazon Route 53: For DNS private zones to manage internal service communication.
+
+Amazon S3: For storing software artifacts.
+
+
+This setup will enhance scalability, simplify management, and reduce costs while maintaining high availability and security for our application.
+
