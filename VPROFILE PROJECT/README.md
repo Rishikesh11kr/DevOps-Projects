@@ -18,7 +18,8 @@ In this project, we will be setting up a multi-tier web application stack. This 
 * Set up a virtual machine locally.
 * Establish a baseline for the next project.
 ## Architectural Design
-![Screenshot 2024-06-23 121952](https://github.com/Rishikesh11kr/DevOps-Projects/assets/90023335/2ad6a1e1-af9b-4b1f-be1a-5d88071a5db6)
+
+<img src="https://github.com/Rishikesh11kr/DevOps-Projects/assets/90023335/2ad6a1e1-af9b-4b1f-be1a-5d88071a5db6" width="500" height="300">
 
 
 This architectural design illustrates the multi-tier web application stack we aim to implement. It includes:
@@ -92,7 +93,7 @@ By migrating to AWS, organizations can achieve better resource management, enhan
 ## Project flowchat:
 <img src="https://github.com/Rishikesh11kr/DevOps-Projects/assets/90023335/b5dcddcb-5e66-406e-a28f-bea08a89d3a6" alt="Screenshot 2024-06-24 110716" width="500" height="300">
 
-## This site contain detail [explanation of project](...)
+## This site contain detail [explanation of project](https://github.com/Rishikesh11kr/DevOps-Projects/blob/master/VPROFILE%20PROJECT/Detailed%20Explanation.txt )
 
 
 ### Flow of Execution
@@ -132,5 +133,7 @@ By migrating to AWS, organizations can achieve better resource management, enhan
 12. **Final Setup and Testing**:
     - Conduct final tests and validations to ensure the scalability, security, and reliability of the setup.
 
-![Screenshot 2024-06-24 115536](https://github.com/Rishikesh11kr/DevOps-Projects/assets/90023335/58e74e59-6844-4eef-aeca-81406b8def21)
+
+
+<img src="https://github.com/Rishikesh11kr/DevOps-Projects/assets/90023335/58e74e59-6844-4eef-aeca-81406b8def21" width="500" height="300">
 
