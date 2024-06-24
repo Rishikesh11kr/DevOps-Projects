@@ -188,7 +188,7 @@ These benefits make Jenkins an excellent choice for improving the efficiency and
 
 ## TOOLS:
 
-<img src="https://github.com/Rishikesh11kr/DevOps-Projects/assets/90023335/1806942b-d10f-4a8e-b25c-650ee8004f7b " width="500" height="150">
+<img src="https://github.com/Rishikesh11kr/DevOps-Projects/assets/90023335/1806942b-d10f-4a8e-b25c-650ee8004f7b " width="500" height="170">
 
-<img src="https://github.com/Rishikesh11kr/DevOps-Projects/assets/90023335/dadc289c-53a4-45ff-9d10-b674d4917e64" width="500" height="150">
+<img src="https://github.com/Rishikesh11kr/DevOps-Projects/assets/90023335/dadc289c-53a4-45ff-9d10-b674d4917e64" width="500" height="170">
 
