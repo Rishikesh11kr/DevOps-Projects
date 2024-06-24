@@ -137,3 +137,24 @@ By migrating to AWS, organizations can achieve better resource management, enhan
 
 <img src="https://github.com/Rishikesh11kr/DevOps-Projects/assets/90023335/58e74e59-6844-4eef-aeca-81406b8def21" width="500" height="300">
 
+
+
+--------------------------------------------------------------------------------------
+
+# Part 1: Refactoring with AWS
+
+## About Part 1
+This phase involves re-architecting services for the AWS cloud, aiming to enhance business continuity and operational efficiency. Leveraging Platform as a Service (PaaS) and Software as a Service (SaaS) models, we benefit from flexible, elastic services where scaling is managed primarily by cloud vendors, offering a pay-as-you-go pricing model.
+
+### AWS Services Used in This Project
+- **Elastic Beanstalk**: Deploy and manage applications without worrying about the infrastructure.
+- **S3/EFS**: Scalable storage solutions for static and dynamic content.
+- **RDS Instances**: Managed relational databases for scalable data storage.
+- **Amazon MQ**: Managed message broker service for reliable communication.
+- **Route 53**: Scalable DNS service for routing end users to internet applications.
+- **CloudFront**: Content Delivery Network (CDN) for fast and secure delivery of content to users worldwide.
+  
+<img src="https://github.com/Rishikesh11kr/DevOps-Projects/assets/90023335/7909ca5a-2a93-4714-adb6-3c98b7ff03b8" width="500"  height="300">
+
+
+
