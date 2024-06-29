@@ -4,11 +4,11 @@
 
 ### TABLE OF CONTENTS
 
-1. [Goal](https://github.com/NotHarshhaa/DevOps-Projects/blob/master/DevOps-Project-02/README.md#goal)
-2. [Pre-Requisites](https://github.com/NotHarshhaa/DevOps-Projects/blob/master/DevOps-Project-02/README.md#pre-requisites)
-3. [Pre-Deployment](https://github.com/NotHarshhaa/DevOps-Projects/blob/master/DevOps-Project-02/README.md#pre-deployment)
-4. [VPC Deployment](https://github.com/NotHarshhaa/DevOps-Projects/blob/master/DevOps-Project-02/README.md#vpc-deployment)
-5. [Validation](https://github.com/NotHarshhaa/DevOps-Projects/blob/master/DevOps-Project-02/README.md#validation)
+1. Goal
+2. Pre-Requisites
+3. Pre-Deployment
+4. VPC Deployment
+5. Validation
 
 ## Goal
 
@@ -16,8 +16,8 @@ Deploy a Modular and Scalable Virtual Network Architecture with Amazon VPC.
 
 ## Pre-Requisites
 
-1. You must be having an [AWS account](https://aws.amazon.com/) to create infrastructure resources on AWS cloud.
-2. [Source Code](https://github.com/NotHarshhaa/DevOps-Projects/blob/master/DevOps-Project-02/html-web-app)
+1. You must be having an [AWS account]
+2. [Source Code]
 
 ## Pre-Deployment
 
@@ -64,4 +64,4 @@ Customize the application dependencies mentioned below on AWS EC2 instance and c
 
 ***If you are planning to use this repo for learning, please hit the star. Thanks!***
 
-#### Author by [Harshhaa Reddy](https://github.com/NotHarshhaa)
+
